@@ -61,7 +61,7 @@ nav {
 }
 
 .hero-banner {
-    background-image: url("/img/grapefruit-bg.jpg");
+    background-image: url("../img/grapefruit-bg.jpg");
     background-color: #ff8e2d;
     background-repeat: no-repeat;
     background-size: cover;
