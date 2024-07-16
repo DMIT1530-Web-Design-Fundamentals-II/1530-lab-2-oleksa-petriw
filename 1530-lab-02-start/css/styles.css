@@ -15,7 +15,81 @@ font-family: 'Pacifico', cursive;
 */
 
 /* UNIVERSAL STYLES */
+body {
+    background-color: #20abad;
+}
 
+h1 {
+    font-family: Pacifico, cursive;
+    color: #eeeaeb;
+    font-weight: 400;
+    text-align: center;
+}
+
+.navigation {
+    padding: 1rem;
+    line-height: 3rem;
+}
+
+.navigation h2 {
+    display: none;
+}
+
+.navigation img {
+    height: 1rem;
+    display: none;
+}
+
+.navigation ul {
+    font-family: Poppins, sans-serif;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+.navigation a {
+    color: #eeeaeb
+}
+
+.navigation ul ul a {
+    text-decoration: none;
+}
+
+.hero-banner {
+    background-image: url("/img/grapefruit-bg.jpg");
+    background-color: #ff8e2d;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-content {
+    text-align: center;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #eeeaeb;
+    padding: 10%;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.hero-content h2 {
+    font-family: Pacifico, cursive;
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.hero-banner p, 
+.hero-banner a {
+    font-family: Poppins, sans-serif;
+    padding: 5%;
+}
+
+.hero-banner a {
+    background-color: #20abad;
+    text-transform: uppercase;
+    color: #eeeaeb;
+    border-radius: 0.5rem;
+}
 
 /* MOBILE VIEW */
 
